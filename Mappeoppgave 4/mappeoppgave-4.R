@@ -27,7 +27,7 @@ data <- function(link) {
 data <- map(link, data) %>%   # bruker map til å få funksjonen til å lese datan
   list.stack(.)  # brukes for å få en dataframe
 
-data3
+data
 
 
 
